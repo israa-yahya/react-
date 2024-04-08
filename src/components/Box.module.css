@@ -1,0 +1,55 @@
+
+.blog_item {
+    width: calc(
+      31% - 40px
+    ); /* Adjust width to fit three items per line with spacing */
+    /* border: 1px solid #004080; Border color */
+    padding: 20px; /* Add padding to create space between content and border */
+    /* margin-bottom: 20px; Add margin to create space between blog items */
+    /* border-radius: 5px; Add rounded corners */
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); Add shadow for depth */
+  }
+  
+  .blog_item h2 {
+    font-size: 18px; /* Adjust heading size */
+    margin-bottom: 10px; /* Add spacing between heading and description */
+  }
+  
+  .blog_item p {
+    font-size: 16px; /* Adjust paragraph size */
+    color: #333; /* Adjust text color */
+    line-height: 1.5; /* Adjust line height for readability */
+  }
+  
+  .blog_item .delete-icon {
+    color: #ff0000; /* Adjust delete icon color */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    margin-top: 10px; /* Add spacing between description and delete icon */
+  }
+  
+  .blog_item img {
+    max-width: 100%;
+    height: 220px;
+    border: 0;
+  }
+  
+  
+  .description {
+    margin-top: 20px;
+  }
+  .content .description h2 {
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+  }
+  .content  .description p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+  }
